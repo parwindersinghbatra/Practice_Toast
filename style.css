@@ -1,0 +1,62 @@
+#toast-message {
+    padding: .5em;
+    border-radius: .25rem;
+    box-shadow: 0 4px 10px #00000040;
+    max-width: 250px;
+    display: none;
+    position:absolute;
+}
+.success {
+    background-color: #00b300
+}
+.error {
+    background-color: red
+}
+.warning {
+    background-color: orange
+}
+.info {
+    background-color: #ffffe0
+}
+.success:before {
+    content: "✓"
+}
+.error:before {
+    content: "✗"
+}
+.warning:before {
+    content: "⚠"
+}
+.info:before {
+    content: "ⓘ"
+}
+.main{
+    text-align: center;
+    margin-top:30px;
+}
+.select1 select{
+    padding:8px 20px;
+    font-size:15px;
+    border:1px solid black;
+    margin-bottom: 15px;
+}
+.message input{
+    color:#9fa19f;
+    padding:5px;
+    font-size:15px;
+    width:230px;
+}
+.duraction span{
+    font-size:18px;
+    position: relative;
+    top:-6px;
+}
+.duraction input{
+    margin-top:5px;
+}
+.btn button{
+    border:1px solid black;
+    padding:10px 20px;
+    background-color: aquamarine;
+    font-size:15px;
+}
